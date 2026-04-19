@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=68.0", "wheel"]
-build-backend = "setuptools.backends._legacy:_Backend"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "pangolin-cad"
@@ -19,6 +19,9 @@ dev = [
     "pytest",
     "ruff",
 ]
+
+[tool.setuptools.packages.find]
+include = ["cad*"]
 
 [tool.ruff]
 line-length = 100
