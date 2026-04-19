@@ -1,0 +1,24 @@
+system       , component                 , weight_kg, confidence, source                    , notes
+Drivetrain   , Engine                    ,       530, estimate  , Cummins ISB 6.7 dry weight, 
+Drivetrain   , Transmission              ,       240, estimate  , Allison 3000 series       , 
+Drivetrain   , Transfer case             ,        41, estimate  , NP241OR                   , 
+Drivetrain   , Front axle                ,       225, estimate  , Dana 70                   , 
+Drivetrain   , Rear axle                 ,       225, estimate  , Dana 70                   , 
+Drivetrain   , Driveshafts               ,        40, estimate  ,                           , rough estimate
+Rolling      , Tires + run-flat inserts  ,       200, estimate  , Goodyear MT/R + Hutchinson, 4x ~50kg each
+Rolling      , Wheels/rims               ,        80, estimate  ,                           , 
+Rolling      , Suspension                ,       150, estimate  ,                           , springs dampers steering
+Rolling      , Brakes                    ,        80, estimate  ,                           , 
+Structure    , Hull/frame                ,       400, estimate  ,                           , bare steel frame + floor
+Protection   , Composite armor           ,       800, estimate  ,                           , ~28m² @ ~30kg/m²
+Protection   , APS (Iron Fist Light)     ,       250, estimate  , Elbit/GDOTS               , 
+Protection   , Laser dazzler/DIRCM       ,        50, estimate  ,                           , 
+Protection   , Smoke launchers           ,        30, estimate  ,                           , 
+Weapons      , Weapon module (max)       ,       750, spec      ,                           , max allowed module weight
+Crew         , Crew + personal gear      ,       200, estimate  ,                           , 2 people + equipment
+Consumables  , Fuel                      ,       150, estimate  ,                           , ~200L diesel
+Electronics  , Sensors/comms/displays/FCS,       150, estimate  ,                           , 
+Electrical   , Batteries/wiring/APU      ,       100, estimate  ,                           , 
+Environmental, NBC + HVAC                ,        80, estimate  ,                           , 
+Safety       , Fire suppression          ,        20, estimate  ,                           , 
+Ancillary    , Stowage/tools/recovery    ,        50, estimate  ,                           , 

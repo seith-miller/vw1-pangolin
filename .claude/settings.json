@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Bash"
+    ]
+  },
+  "env": {
+    "PATH": "$HOME/.local/bin:$PATH"
+  }
+}
