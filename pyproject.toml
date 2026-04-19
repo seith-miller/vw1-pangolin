@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "pangolin-cad"
+version = "0.1.0"
+description = "Parametric CAD toolchain for the Pangolin armored vehicle"
+requires-python = ">=3.10"
+dependencies = [
+    "build123d",
+    "gmsh",
+    "pyvista",
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
