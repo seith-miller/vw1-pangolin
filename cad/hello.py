@@ -26,8 +26,9 @@ RENDER_PATH = ROOT / "models" / "renders" / "hello.png"
 
 def build_box(length: float = LENGTH, width: float = WIDTH, height: float = HEIGHT) -> bd.Part:
     """Return a Build123d Part representing a simple rectangular box."""
-    box = bd.Box(length, width, height)
-    return bd.Part() + box
+    with bd.BuildPart() as builder:
+        bd.Box(length, width, height)
+    return builder.part
 
 
 def export_step(part: bd.Part, path: Path = STEP_PATH) -> Path:
