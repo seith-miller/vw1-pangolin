@@ -1,0 +1,25 @@
+# Generated CAD geometry
+*.step
+*.stl
+
+# Mesh files
+*.msh
+
+# VTK / FEA results
+*.vtk
+*.vtu
+*.vtp
+
+# Keep PNG renders
+!models/renders/*.png
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
